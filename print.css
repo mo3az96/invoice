@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.invoice {
+    width: 827px;
+    margin: auto;
+    padding: 50px 64px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 31px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+.bill_num {
+    font-size: 16px;
+}
+
+.person_info {
+    margin-top: 31px;
+}
+
+.mo_col {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.col_head {
+    width: 80px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.col_info {
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0px;
+    margin-top: 49px;
+    margin-bottom: 65px;
+}
+
+table th {
+    text-align: right;
+    height: 45px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table td {
+    padding-right: 20px;
+    height: 45px;
+    font-size: 16px;
+}
+
+th,
+td {
+    min-width: 259px;
+}
+
+th:nth-of-type(2),
+td:nth-of-type(2) {
+    min-width: 101px;
+}
+
+th:nth-of-type(3),
+td:nth-of-type(3) {
+    min-width: 90px;
+}
+
+th:nth-of-type(4),
+td:nth-of-type(4) {
+    min-width: 90px;
+}
+
+table td {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table tr:first-of-type {
+    background-color: #e0e0e0;
+}
+
+
+.footer-col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.footer-col:last-of-type {
+    margin-top: 25px;
+}
+
+.footer_title {
+    width: 147px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_price {
+    width: 128px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
